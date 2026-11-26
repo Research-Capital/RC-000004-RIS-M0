@@ -40,7 +40,7 @@ Hai đẳng thức cuối suy ra từ thứ tự tuyến tính của số thực
 
 Cài [Lean qua Elan](https://lean-lang.org/install/), rồi chạy trong thư mục kho:
 
-    lake exe cache get Mathlib/Algebra/BigOperators/Fin.lean Mathlib/Data/Real/Basic.lean Mathlib/Tactic/Linarith.lean
+    lake exe cache get Mathlib.Algebra.BigOperators.Fin Mathlib.Data.Real.Basic Mathlib.Tactic.Linarith
     lake build
     lake env lean -DwarningAsError=true Simplex.lean
 
